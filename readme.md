@@ -10,8 +10,12 @@
 
   </p>
 
-# Welcome to my project WLED! ✨
+# WLED Fork for grouping DMX Input ✨
+WLED supports grouping DMX Input by default using the _main segment only live_ data syncing option. but as it is not very self self explanatory and i searched to achive what it does for a while i created this fork with code from [HazeCore/WLED](https://github.com/HazeCore/WLED) to test usabilty of this solution. It adds the option, to group DMX directly on the Sync Settings page, without changing Segments.
 
+You can read the conversation for this pullrequest [#2686](https://github.com/Aircoookie/WLED/pull/2686) and this issue [#2325](https://github.com/Aircoookie/WLED/issues/2325) if you're interested.
+
+## What is WLED? 
 A fast and feature-rich implementation of an ESP8266/ESP32 webserver to control NeoPixel (WS2812B, WS2811, SK6812) LEDs or also SPI based chipsets like the WS2801 and APA102!
 
 ## ⚙️ Features
